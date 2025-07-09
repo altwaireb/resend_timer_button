@@ -16,3 +16,9 @@ All notable changes to this project will be documented in this file.
 - Full example app in `example/`
 
 ---
+
+## [1.0.1] - 2025-07-09
+
+✅ Minor metadata updates:
+- Fixed LICENSE file to be OSI-compliant
+- Updated README badges and Maintainer section
