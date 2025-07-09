@@ -1,45 +1,37 @@
-name: Flutter Package CI
+name: Flutter CI
 
 on:
   push:
-    branches:
-      - main
-      - master
+    branches: [main]
   pull_request:
-    branches:
-      - main
-      - master
+    branches: [main]
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
+      - uses: subosito/flutter-action@v2
         with:
-          flutter-version: 'stable'  # change to specific version if needed
-
-      - name: Disable Dart analytics (optional, cleans logs)
-        run: dart --disable-analytics
+          flutter-version: '3.19.x' # or your preferred version
 
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Analyze code
-        run: flutter analyze
-
-      - name: Check formatting
+      - name: Format check
         run: dart format --set-exit-if-changed .
 
-      - name: Run tests with coverage
-        run: flutter test --coverage
+      - name: Analyze
+        run: flutter analyze
 
-      - name: Upload coverage report
-        uses: actions/upload-artifact@v3
+      - name: Run tests
+        run: flutter test
+
+      - name: Upload test results (optional)
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
-          name: coverage
-          path: coverage/lcov.info
+          name: test-results
+          path: build/test-results/
