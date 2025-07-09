@@ -1,0 +1,13 @@
+# Ignore IDE files and project metadata
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore build and dart tool folders
+.dart_tool/
+build/
+
+# Others (optional)
+.vscode/
+*.DS_Store
