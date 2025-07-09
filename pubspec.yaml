@@ -1,6 +1,6 @@
 name: resend_timer_button
 description: "A customizable Flutter countdown button used for OTP or resend flows."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/altwaireb/resend_timer_button
 repository: https://github.com/altwaireb/resend_timer_button
 issue_tracker: https://github.com/altwaireb/resend_timer_button/issues
