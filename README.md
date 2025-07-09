@@ -1,11 +1,11 @@
 # resend_timer_button
 
-[![pub package](https://img.shields.io/pub/v/resend_timer_button.svg)](https://pub.dev/packages/resend_timer_button)
-[![likes](https://badges.bar/resend_timer_button/likes)](https://pub.dev/packages/resend_timer_button/score)
-[![pub points](https://badges.bar/resend_timer_button/pub%20points)](https://pub.dev/packages/resend_timer_button/score)
-[![popularity](https://badges.bar/resend_timer_button/popularity)](https://pub.dev/packages/resend_timer_button/score)
-![License: MIT](https://img.shields.io/badge/license-MIT-green)
-![Flutter](https://img.shields.io/badge/flutter-ready-blue)
+[![Pub Version](https://img.shields.io/pub/v/resend_timer_button.svg)](https://pub.dev/packages/resend_timer_button)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Flutter](https://img.shields.io/badge/flutter-ready-blue)](https://flutter.dev)
+[![Likes](https://badges.bar/resend_timer_button/likes)](https://pub.dev/packages/resend_timer_button/score)
+[![Pub Points](https://badges.bar/resend_timer_button/pub%20points)](https://pub.dev/packages/resend_timer_button/score)
+[![Popularity](https://badges.bar/resend_timer_button/popularity)](https://pub.dev/packages/resend_timer_button/score)
 
 A customizable Flutter button widget with a built-in countdown timer. Commonly used in OTP, verification, or password reset flows where users need to wait before resending a code or performing an action again.
 
@@ -107,8 +107,24 @@ ResendTimerButton(
 
 ---
 
-## 📦 Maintained by
-@altwaireb — feel free to open issues or pull requests!
+## 🛠 Maintainer
+
+Maintained by **[Abdulmajeed Altwaireb](https://github.com/altwaireb)**  
+Feel free to [open an issue](https://github.com/altwaireb/resend_timer_button/issues) or [submit a pull request](https://github.com/altwaireb/resend_timer_button/pulls).
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome and appreciated!  
+Please open issues for bugs, suggestions, or enhancements.  
+Pull requests should follow [Flutter's style guide](https://dart.dev/guides/language/effective-dart/style).
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 
 
